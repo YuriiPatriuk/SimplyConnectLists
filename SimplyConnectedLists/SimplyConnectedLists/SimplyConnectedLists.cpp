@@ -34,7 +34,15 @@ int main()
 	f.erase_after(it);
 	print(f);*/
 	FwdList<int> f;
-	f.pushFront(10);
+	f.pushFront(1);
+	//f.pushFront(2);
+	//f.pushFront(3);
+	//f.pushFront(4);
+	f.print();
+	f.reverse();
+	f.print();
+
+
 	//f.pushFront(5);
 	//f.print();
 	//f.pushTail(8);
@@ -51,7 +59,7 @@ int main()
 	//f.print();
 	//f.pushAfter(1234,1);
 	f.print();
-	f.eraseTail();
+	f.eraseFront();
 	f.print();
 
 }
